@@ -1,12 +1,12 @@
-body, main{
+body, main {
     display: flex;
 }
 body {
-    flex-direction: column
+    flex-direction: column;
 }
 main {
     flex-direction: row;
-    flex:auto
+    flex:auto;
 
 }
 article {
