@@ -1,5 +1,7 @@
 body, main {
     display: flex;
+    background-color: rgb(196, 206, 206);
+    font-family: sans-serif;
 }
 body {
     flex-direction: column;
@@ -12,8 +14,18 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    padding: 10px
 }
 aside {
 flex: 1;
 overflow-y: auto;
+}
+header, li, a {
+background-color: rgb(53, 53, 48);
+color: white;
+}
+footer {
+    background-color: rgb(53, 53, 48);
+    color: white;
+    text-align: center;
 }
